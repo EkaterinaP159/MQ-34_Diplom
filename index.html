@@ -10,96 +10,107 @@
 </head>
 <body>
   <header class="header">
-
     <div class="container">
+      <div class="menu-container">
+        <input class="menu-toggle" type="checkbox" id="menu-toggle">
+        <div class="menu">
+          <label class="menu-icon-item" for="menu-toggle">
+            <span class="form-hint">Выпадающее меню</span>
+            <img class="menu_icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Hamburger_icon_white.svg/1200px-Hamburger_icon_white.svg.png" alt="menu_icon" >
+          </label>
+          <nav class="menu-list">
+            <ul class="menu-items">
+              <li class="menu-list-item">
+                <a class="menu-link" href="#home">главная</a>
+              </li>
+              <li class="menu-list-item">
+                <a class="menu-link" href="#posts">посты</a>
+              </li>
+              <li class="menu-list-item">
+                <a class="menu-link" href="#articles">статьи</a>
+              </li>
+              <li class="menu-list-item">
+                <a class="menu-link" href="#tags">теги</a>
+              </li>
+              <li class="menu-list-item">
+                <a class="menu-link" href="#topic">темы</a>
+              </li>
+              <li class="menu-list-item">
+                <a class="menu-link" href="#contacts">контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
       <div class="header-logo">
         <a href="/" class="link-header-logo"><img class="image-header-logo"
             src="https://netology-code.github.io/html-2-diploma/sources/images/noemi-logo.svg" alt="header-logo"> </a>
       </div>
-      <nav class="menu">
-        <ul class="menu-list">
-          <li class="menu-list-item">
-            <a class="menu-link" href="#home">главная</a>
-          </li>
-          <li class="menu-list-item">
-            <a class="menu-link" href="#posts">посты</a>
-          </li>
-          <li class="menu-list-item">
-            <a class="menu-link" href="#articles">статьи</a>
-          </li>
-          <li class="menu-list-item">
-            <a class="menu-link" href="#tags">теги</a>
-          </li>
-          <li class="menu-list-item">
-            <a class="menu-link" href="#topic">темы</a>
-          </li>
-          <li class="menu-list-item">
-            <a class="menu-link" href="#contacts">контакты</a>
-          </li>
-        </ul>
-      </nav>
     </div>
     <h1 class="heading">блог о творчестве, спорте, и образе жизни</h1>
   </header>
   <section class="trends">
       <h4 class="section-title">сейчас в тренде</h4>
-    <article class="trend trend1">
+      <div class="trend-item">
+        <article class="trend trend1">
+          <div class="trend-content">
+            <div class="article-tags-list">
+              <ul class="article-tag-links">
+                <li class="article-tag-item">
+                  <a class="article-tag-link" href="#0">lifestyle</a>
+                </li>
+                <li class="article-tag-item">
+                  <a class="article-tag-link" href="#0">interior</a>
+                </li>
+              </ul>
+            </div>
+            <h3 class="article-title"><a class="trend-title-link" href="#0">сейчас в тренде: сад на подоконнике сейчас в тренде: сад на подоконникесейчас в тренде: сад на подоконникесейчас в тренде: сад на подоконникесейчас в тренде: сад на подоконникесейчас в тренде: сад на подоконникесейчас в тренде: сад на подоконникесейчас в тренде: сад на подоконникесейчас в тренде: сад на подоконникесейчас в тренде: сад на подоконнике</a></h3>
+          </div>
+      </article>
+      <article class="trend trend2">
         <div class="trend-content">
           <div class="article-tags-list">
             <ul class="article-tag-links">
               <li class="article-tag-item">
-                <a class="article-tag-link" href="#0">lifestyle</a>
-              </li>
-              <li class="article-tag-item">
-                <a class="article-tag-link" href="#0">interior</a>
+                <a class="article-tag-link" href="#0">food</a>
               </li>
             </ul>
           </div>
-          <h3 class="article-title"><a class="trend-title-link" href="#0">сейчас в тренде: сад на подоконнике</a></h3>
+          <h3 class="article-title"><a class="trend-title-link" href="#0">сыры на красивых картинках из интернета: какие они на вкус?</a></h3>
         </div>
     </article>
-    <article class="trend trend2">
+    <article class="trend trend3">
       <div class="trend-content">
         <div class="article-tags-list">
           <ul class="article-tag-links">
             <li class="article-tag-item">
-              <a class="article-tag-link" href="#0">food</a>
+              <a class="article-tag-link" href="#0">lifestyle</a>
+            </li>
+            <li class="article-tag-item">
+              <a class="article-tag-link" href="#0">travel</a>
             </li>
           </ul>
         </div>
-        <h3 class="article-title"><a class="trend-title-link" href="#0">сыры на красивых картинках из интернета: какие они на вкус?</a></h3>
+        <h3 class="article-title"><a class="trend-title-link" href="#0">собираемся в первый поход в горы</a></h3>
       </div>
   </article>
-  <article class="trend trend3">
+  <article class="trend trend4">
     <div class="trend-content">
       <div class="article-tags-list">
         <ul class="article-tag-links">
           <li class="article-tag-item">
-            <a class="article-tag-link" href="#0">lifestyle</a>
+            <a class="article-tag-link" href="#0">food</a>
           </li>
           <li class="article-tag-item">
-            <a class="article-tag-link" href="#0">travel</a>
+            <a class="article-tag-link" href="#0">health</a>
           </li>
         </ul>
       </div>
-      <h3 class="article-title"><a class="trend-title-link" href="#0">собираемся в первый поход в горы</a></h3>
+      <h3 class="article-title"><a class="trend-title-link" href="#0">сейчас в тренде: сколько витамина с в лимонах?</a></h3>
     </div>
-</article>
-<article class="trend trend4">
-  <div class="trend-content">
-    <div class="article-tags-list">
-      <ul class="article-tag-links">
-        <li class="article-tag-item">
-          <a class="article-tag-link" href="#0">food</a>
-        </li>
-        <li class="article-tag-item">
-          <a class="article-tag-link" href="#0">health</a>
-        </li>
-      </ul>
-    </div>
-    <h3 class="article-title"><a class="trend-title-link" href="#0">сейчас в тренде: сколько витамина с в лимонах?</a></h3>
-  </div>
-</article>
+  </article>
+      </div>
+    
   </section>
   <section class="section">
     <main class="main">
@@ -306,7 +317,7 @@
         <form class="subscribe-form">
           <label>
             <span class="form-hint">Поле для ввода email</span>
-            <input class="subscribe-field" placeholder="Ваш email-адрес" type"email" required>
+            <input class="subscribe-field" placeholder="Ваш email-адрес" type="email" required>
             </input>
           </label>
           <button class="submit" type="submit">подписаться</button>
@@ -370,27 +381,75 @@
           </li>
         </ul>
       </section>
-      <section class="goods">
-        <h4 class="section-title">наши изделия</h4>
-        <article class="goods-item">
-          <picture class="goods-img1">
+    </aside>
+  </section>
+  <section class="goods">
+    <h4 class="section-title">наши изделия</h4>
+    <section class="goods-section">
+      <article class="goods-item">
+        <div class="goods-img">
+          <picture class="goods-img-item">
             <source media="(max-width: 640px)" srcset="images/shop-item-mobile1.jpg"> 
             <source media="(min-width: 641px and max-width: 1200px)" srcset="images/shop-item-tablet1.jpg">
             <source media="(min-width: 1201px)" srcset="images/shop-item-desktop1.jpg">
             <img src="images/shop-item-mobile1.jpg" alt="shop-item">
           </picture>
-          <div class="goods-content">
-            <h4 class="goods-title">подушки на диван</h4>
-            <p class="goods-text">Набор из двух подушек с модными принтами. Видео о создании <a class="goods-link" href="#0">здесь.</a></p>
-            <div class="goods-footer">
-              <span class="price">1000 р<br>800 р</span>
-              <button class="button" <a class="button-link" href="#0">в магазин</a></button>
-            </div>      
-          </div>
-        </article>
-        
-      </section>
-    </aside>
+        </div>
+        <div class="goods-content">
+          <h4 class="goods-title">подушки на диван</h4>
+          <p class="goods-text">Набор из двух подушек с модными принтами. Видео о создании <a class="goods-link" href="#0">здесь.</a></p>
+          <div class="goods-footer">
+            <div class="prices">
+              <div class="price-invalid">1000 &#8381</div>
+              <div class="price-current">800 &#8381</div>
+            </div>
+            <button class="button"> <a class="button-link" href="#0">в магазин</a></button>
+          </div>      
+        </div>
+      </article>
+      <article class="goods-item">
+        <div class="goods-img">
+          <picture class="goods-img-item">
+            <source media="(max-width: 640px)" srcset="images/shop-item-mobile2.jpg"> 
+            <source media="(min-width: 641px and max-width: 1200px)" srcset="images/shop-item-tablet2.jpg">
+            <source media="(min-width: 1201px)" srcset="images/shop-item-desktop2.jpg">
+            <img src="images/shop-item-mobile2.jpg" alt="shop-item">
+          </picture>
+        </div>
+        <div class="goods-content">
+          <h4 class="goods-title">кукла "зайчик"</h4>
+          <p class="goods-text">Интерьерная рукодельная кукла "Зайчик", созданию которой посвящена <a class="goods-link" href="#0">весенняя серия постов</a> в блоге и несколько подкастов.</p>
+          <div class="goods-footer">
+            <div class="prices">
+              <div class="price-invalid"></div>
+              <div class="price-current">3500 &#8381</div>
+              </div>
+            <button class="button"> <a class="button-link" href="#0">в магазин</a></button>
+          </div>      
+        </div>
+      </article>
+      <article class="goods-item">
+        <div class="goods-img">
+          <picture class="goods-img-item">
+            <source media="(max-width: 640px)" srcset="images/shop-item-mobile3.jpg"> 
+            <source media="(min-width: 641px and max-width: 1200px)" srcset="images/shop-item-tablet3.jpg">
+            <source media="(min-width: 1201px)" srcset="images/shop-item-desktop3.jpg">
+            <img src="images/shop-item-mobile3.jpg" alt="shop-item">
+          </picture>
+        </div>
+        <div class="goods-content">
+          <h4 class="goods-title">шестиугольная рамка</h4>
+          <p class="goods-text">Необычная рамка для украшения дома из видео <a class="goods-link" href="#0">"Как сделать рамку из подручных средств за 30 минут"</a></p>
+          <div class="goods-footer">
+            <div class="prices">
+              <div class="price-invalid">500 &#8381</div>
+              <div class="price-current">400 &#8381</div>
+            </div>
+            <button class="button"> <a class="button-link" href="#0">в магазин</a></button>
+          </div>      
+        </div>
+      </article>
+    </section> 
   </section>
   <footer class="footer">
     <address class="articles-socials">
